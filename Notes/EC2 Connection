@@ -1,0 +1,43 @@
+EC2 Commands
+
+wbawscpappld01
+
+WMAD\XATEKE
+
+python3.8 /
+
+pip3.8 install package
+
+sudo su - etldev
+
+sudo su - etldev
+
+
+SQL:
+
+ 
+
+python3.8 /edlw-etl-apps/bin/test/edlw_jobrun_test.py cp RCHL DML/STG_RCHL_PRODUCT_POS_dml.sql
+
+
+Python Script:
+
+python3.8 /edlw-etl-apps/bin/framework/edlw_jobrun.py cp BRCLKP Python/cp_upc_brc_lkp_api_call.py:brc_lkp_api_daily_upc
+
+S3 Transfer
+
+python3.8 /edlw-etl-apps/bin/test/edlw_jobrun_test.py dce LOCATIONS ind_to_int
+
+
+
+
+python3.8 /edlw-etl-apps/bin/framework/dev/edlw_jobrun.py cp BRCLKP brc_lkp_api_daily_upc
+
+python3.8 /edlw-etl-apps/bin/framework/dev/edlw_jobrun.py cp BRCLKP brc_lkp_api_brand
+
+python3.8 /edlw-etl-apps/bin/framework/dev/edlw_jobrun.py cp BRCLKP brc_lkp_api_search
+
+
+
+
+main(app,subjectarea,ini_param_df,exec_param)
