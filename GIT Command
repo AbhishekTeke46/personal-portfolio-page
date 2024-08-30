@@ -1,0 +1,21 @@
+git config --system --unset credential.helper
+
+git clone --branch DEV --single-branch https://github.com/dataintelligencegroup/cp_elt_pipeline.git DEV
+
+
+
+git clone --branch DEV --single-branch https://xateke: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@github.com/dataintelligencegroup/cp_elt_pipeline.git DEV
+
+cd DEV
+
+ls -lrt
+
+git add --all
+
+git commit -m "Files are added"
+
+git push origin DEV
+
+New:
+
+git clone --branch DEV --single-branch https://xateke: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@github.com/dataintelligencegroup/cp_elt_pipeline_dev.git DEV
